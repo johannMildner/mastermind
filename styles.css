@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    background-color: lightgrey;
+    width: 330px;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 10px;
+}
+
+button {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}

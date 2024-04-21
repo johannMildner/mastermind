@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>mastermind</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./myutils.js"></script>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./mastermind.js"></script>
+</head>
+
+<body>
+    <h1>Mastermind</h1>
+
+    <code><span id="konsole"></span></code>
+    <br />
+    <label for="eingabe"></label>
+    <input id="eingabe" disabled="disabled">
+    <button id="rechnen" disabled="disabled" onclick="rechnen()">Check</button>
+    <br /><br />
+    <button id="start" onclick="start()">Start</button>
+    <button id="stopp" disabled="disabled" onclick="stopp()">Stopp</button>
+    <button id="help" disabled="disabled" onclick="help()">Help</button>
+    <br /><br />
+    <span id="message"></span>
+</body>
+
+</html>
